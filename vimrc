@@ -55,7 +55,3 @@ set wildmenu
 set wildmode=list:longest
 
 EOF
-
-
-
-EOF
