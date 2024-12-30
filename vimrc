@@ -55,3 +55,13 @@ set wildmenu
 set wildmode=list:longest
 
 EOF
+
+cat <<'EOF' >> ~/.bashrc
+alias k='kubectl'
+cxt () 
+{ 
+    alias kc="kubectl -n $1";
+    alias helmc="helm -n $1";
+    alias occ="oc -n $1"
+}
+EOF
